@@ -1,5 +1,9 @@
-const entreesPremiereSemaine = 1000
-const entreesDeuxiemeSemaine = 2000
-const totalEntrees = entreesPremiereSemaine + entreesDeuxiemeSemaine
+let tiket = {
+    nomFilm: "Django",
+    prix: 20,
+    numeroSalle: 2,
+}
+let nom = "Valentino"
+let textAffichage = "bonjour " + nom + ", votre film " + tiket.nomFilm + " est en salle " + tiket.numeroSalle
 
-console.log(totalEntrees)
+console.log(textAffichage)
