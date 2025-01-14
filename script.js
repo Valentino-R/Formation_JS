@@ -1,7 +1,8 @@
-let motTapeOk = true 
+const motApplication = "Bonjour" // Essayez de mettre un autre mot ici !
+let motUtilisateur = prompt("Entrez le mot : " + motApplication)
 
-if (motTapeOk) {
-    console.log("Bravo, vous avez correctement tapé le mot")
-}else{
-    console.log("Échec, le mot n'est pas correct")  
+if (motUtilisateur === motApplication) {
+    console.log("Bravo !")
+} else {
+    console.log("Vous avez fait une erreur de frappe.")
 }
